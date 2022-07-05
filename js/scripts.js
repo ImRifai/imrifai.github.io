@@ -328,43 +328,7 @@
 		}
 	});
 	
-	/*
-		Video popup
-	*/
-	$('.has-popup-video').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		iframe: {
-            patterns: {
-                youtube_short: {
-                  index: 'youtu.be/',
-                  id: 'youtu.be/',
-                  src: 'https://www.youtube.com/embed/%id%?autoplay=1'
-                }
-            }
-        },
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: false,
-		mainClass: 'mfp-fade',
-		callbacks: {
-			markupParse: function(template, values, item) {
-				template.find('iframe').attr('allow', 'autoplay');
-			}
-		}
-	});
-	
-	/*
-		Music popup
-	*/
-	$('.has-popup-music').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: false,
-		mainClass: 'mfp-fade'
-	});
+
 
 	/*
 		Gallery popup
