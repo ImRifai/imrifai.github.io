@@ -742,7 +742,7 @@
 }
 
 .section.started .h-title {
-	margin: 100px 0 0 -11vw;
+	margin: 100px 0 0 -17vw;
 	padding: 4.2vw;
 	font-size: 4.2vw;
 	line-height: 1.2;
@@ -765,6 +765,7 @@
 .section.started .started-content {
 	padding-left: 8%;
 	max-width: 500px;
+	margin-top: -258px;
 }
 
 .section.started .started-content .h-subtitles {
@@ -885,6 +886,7 @@
 	.section.started .started-content {
 		padding-left: 0;
 		max-width: 100%;
+		margin-top: 0;
 	}
 
 
